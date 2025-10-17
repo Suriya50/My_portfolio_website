@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(images/volume.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parent{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 1px;
+    background-color: rgb(10, 10, 10);
+   
+
+
+}
+
+.child1{
+    margin-left: 50px;
+    font-size: large;
+    font-weight:400px ;
+    color: rgb(250, 247, 247);
+}
+.child2{
+    display: flex;
+    gap: 30px;
+    margin-right: 100px;
+    margin-top: 10px;
+    transition: 1.1s ease;
+}
+
+.child2 button:hover{
+    width: 90px;
+    height: 20px;
+    border-radius: 9px;
+   color: white;
+    background-color: rgb(46, 196, 215);
+    transition: 1.2s;
+    border: 1px rgb(230, 182, 190) solid;
+
+}
+.child2 a{
+    color: rgb(23, 21, 21);
+}
+.child2 a{
+    text-decoration: none;
+    color:rgb(16, 14, 14) ;
+}
+.one{
+    margin-top: 179px;
+    margin-left: 220px;
+    display: grid;
+    padding: 40px;
+    color: rgb(245, 242, 242);
+    
+    
+
+}
+.resume button{ 
+    border-radius: 9px;
+    color: aliceblue;
+    color: black;
+    height: 30px;
+    width: 130px;
+    font-size: medium;
+}
+    
+
+
+.resume button:hover{
+width: 140px;
+    height: 30px;
+    border-radius: 9px;
+   color: white;
+    background-color: rgb(238, 31, 207);
+    transition: 1.1s;
+    border: 1px rgb(204, 137, 148) solid;
+}
+.resume a{
+    text-decoration: none;
+    color: black;
+}
+
+.one h2,h1,h4,h5{
+    margin-bottom: 5px;
+}
+.first{
+    display: flex;
+    
+}
+.icons{
+    color: rgb(12, 34, 231);
+}
+
+
+.two{
+    margin-right: 70px;
+    margin-top: 100px;
+    
+    border-radius: 9px;
+}
+.two img{
+    border-radius: 50%;
+    border: 6px solid rgb(112, 67, 235);
+}
+
+.three{
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.link{
+    display: flex;
+    margin-left: 280px;
+    gap: 50px;
+}
+.html{
+    display: flex;
+    margin-left: 20%;
+}
+.css{
+    display: flex;
+    margin-left: 21%;
+}
+.ecommerce{
+    display: flex;
+}
+.project{
+    margin-top: 10px;
+    margin-right: 20px;
+    display: grid;
+    padding: 10px;
+    color: rgb(255, 253, 253);
+}
+.project h2,h5,h1{
+    margin-bottom: 0px;
+
+}
+
+.com{
+    margin-top: 100px;
+    margin-right: 70px;
+}
+
+.view{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    align-items: center;
+    transition: 1.3;
+    
+}
+
+.view button:hover{
+    width: 90px;
+    height: 30px;
+    color: rgb(241, 249, 249);
+    background-color: rgb(225, 114, 201);
+    border-radius: 10px;
+    transition: 1.2s;
+}
+.view a{
+    text-decoration: none;
+    color: black;
+}
+.ani{
+    width: 22ch;
+    white-space: nowrap;
+    overflow: hidden;
+    display: flex;
+    color: rgb(244, 19, 229);
+    animation: ani 5s steps(28) backwards,1s infinite alternate, blink 0.5s step-end infinite;
+}
+
+@keyframes ani{
+    from{width: 0;}
+    to{width: 28ch;}
+}
+@keyframes blink{
+    50% {border-color: transparent;}
+}
+
+.school{
+    width: 800px;
+    height: 200px;
+    border: 2px solid  rgb(133, 101, 109);
+    margin-left: 24%;
+    margin-top: 25px;
+    padding: 10px;
+    color:  rgb(220, 217, 217);
+}
+
+.school1{
+    width: 800px;
+    height: 200px;
+    border: 2px solid rgb(133, 101, 109);
+    margin-left: 24%;
+    margin-top: 25px;
+    padding: 10px;
+    margin-bottom: 5PX;
+    color:  rgb(220, 217, 217) ;
+}
+
+.college{
+    width: 800px;
+    height: 200px;
+    border: 2px solid  rgb(133, 101, 109);
+    margin-left: 24%;
+    margin-top: 25px;
+    padding: 10px;
+    margin-bottom: 5PX;
+    color:  rgb(220, 217, 217);
+}
+
+.course{
+    width: 800px;
+    height: 200px;
+    border: 2px solid  rgb(133, 101, 109);
+    margin-left: 24%;
+    margin-top: 25px;
+    padding: 10px;
+    margin-bottom: 5PX;
+    color:  rgb(220, 217, 217);
+}
+.contact{
+    display: flex;
+    margin-left: 35%;
+    margin-top: 80px;
+    gap: 50px;
+}
